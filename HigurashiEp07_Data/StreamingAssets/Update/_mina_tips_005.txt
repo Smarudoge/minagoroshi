@@ -75,7 +75,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　昔、自分と女房が住んでいた家は、沙都子たちの家に移ってからは放置しているのでとても住めたものではない。",
-		   NULL, "Ele não podia voltar para a casa onde morava com sua esposa, pois estava abandonada desde que ele se mudou para a casa da Satoko.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Ele não podia voltar à casa onde morava com sua esposa, pois estava abandonada desde que ele se mudou para a casa da Satoko.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -495,3 +495,4 @@ void main()
 	Wait( 1000 );
 	DrawScene( "black", 1000 );
 }
+
