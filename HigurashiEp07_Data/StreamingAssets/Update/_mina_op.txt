@@ -381,7 +381,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　……沙都子の叔父が帰ってきて、沙都子を連れ去って閉じ込めてしまう。",
-		   NULL, "...O tio da Satoko voltou e a trancou dentro de casa.", Line_Normal);
+		   NULL, "...O tio da Satoko voltou e a trancafiou dentro de casa.", Line_Normal);
 	ClearMessage();
 
 	DrawScene( "black", 1000 );
@@ -535,7 +535,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　私のことなんかいくら話しても、あなたにはわからないし、興味もないことよね。",
-		   NULL, "Você não entende nem está interessada em ouvir a minha história.", Line_Normal);
+		   NULL, "Você não entende e nem está interessada em ouvir a minha história.", Line_Normal);
 	ClearMessage();
 
 	DisableWindow();
@@ -831,7 +831,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　少なくとも、あなたの手元にある５〜６個のカケラの中には、前原圭一が友人たちを撲殺する物語はその１つしかないはず。",
-		   NULL, "Na verdade, dos cinco ou seis Fragmentos na sua frente, ele só mata as amigas em um deles.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "Na verdade, dos cinco ou seis Fragmentos na sua frente, ele só mata suas amigas em um deles.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -1056,7 +1056,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　つまり、この舞台には「特定されないランダムな人物が、疑心暗鬼に取り憑かれ、凶行に誘われる」というルールＸがあるということ。",
-		   NULL, "\"Uma pessoa aleatória é possuída por paranoia e tende a cometer um ato violento\". Isto é o que eu chamo de Regra X.", GetGlobalFlag(GLinemodeSp));
+		   NULL, "\"Uma pessoa aleatória é possuída por paranoia e tende a cometer um ato violento\". Isso é o que eu chamo de Regra X.", GetGlobalFlag(GLinemodeSp));
 	if (GetGlobalFlag(GADVMode)) { ClearMessage(); } else { OutputLineAll(NULL, "\n\n", Line_ContinueAfterTyping); }
 
 
@@ -2367,3 +2367,4 @@ void main()
 
 	ModCallScriptSection("&opening", "OpeningStory");
 }
+
