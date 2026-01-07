@@ -231,7 +231,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…そう思えば思うほどに、無抵抗な沙都子を思い切りぶん殴ってやりたい衝動に駆られるのだった。",
-		   NULL, "Quanto mais ele sofria, mas forte crescia sua vontade de espancá-la.", Line_Normal);
+		   NULL, "Quanto mais ele sofria, mais crescia sua forte vontade de espancá-la.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -254,3 +254,4 @@ void main()
 	Wait( 1000 );
 	DrawScene( "black", 1000 );
 }
+
