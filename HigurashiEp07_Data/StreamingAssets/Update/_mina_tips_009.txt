@@ -59,7 +59,7 @@ void main()
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
 	OutputLine(NULL, "　…相談所の連中は警察を伴うこともあると仲間の誰かに聞いていた。",
-		   NULL, "Um de seus amigos lhe disse que o centro de consulta às vezes trabalha com a polícia.", Line_Normal);
+		   NULL, "Um de seus amigos lhe dissera que o centro de consulta às vezes trabalha com a polícia.", Line_Normal);
 	ClearMessage();
 
 	if (GetGlobalFlag(GADVMode)) { OutputLineAll("", NULL, Line_ContinueAfterTyping); }
@@ -455,3 +455,4 @@ void main()
 	Wait( 1000 );
 	DrawScene( "black", 1000 );
 }
+
